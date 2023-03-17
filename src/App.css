@@ -118,4 +118,14 @@
   width: 400px;
 }
 
+@media only screen and (max-width: 310px) {
+  .box-task-container {
+      min-width: 75vw;
+  }
+
+  .box-tasks-container {
+      margin: auto auto;
+      padding: 5px;
+  }
+}
 
